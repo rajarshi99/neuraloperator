@@ -102,7 +102,7 @@ def _precompute_convolution_filter_matrix(grid_in,
 
     Compared to the ``torch_harmonics`` routine for spherical support values, this
     function also returns the translated filters at positions 
-    $T^{-1}_j \omega_i = T^{-1}_j T_i \nu$, but assumes a non-periodic subset of the
+    $T^{-1}_j omega_i = T^{-1}_j T_i \nu$, but assumes a non-periodic subset of the
     euclidean plane.
 
     Parameters

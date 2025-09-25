@@ -33,6 +33,8 @@ immediately reflected without having to reinstall):
 
   git clone https://github.com/NeuralOperator/neuraloperator
   cd neuraloperator
+  python -m venv neural_op_env                # -Rj
+  source neural_op_env/bin/activate           # -Rj
   pip install -e .
   pip install -r requirements.txt
 
